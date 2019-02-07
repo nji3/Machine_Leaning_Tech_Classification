@@ -65,3 +65,11 @@ Linear SVM with Bias
 ---------------------
 
 What if we want to include Bias term?
+
+One thing need to be taken care of is that if we include Bias, we won't want to penalize it. There is no information about the relation between the predictor variable and response variable in the bias term. Then we would see our modified loss function:
+
+![Alt Text](https://github.com/nji3/SVM_Gaussian/blob/master/tex/function14.gif)
+
+We will still minimize the inside part first. Because of the bias term, we have one new constrain now, which is
+
+![Alt Text](https://github.com/nji3/SVM_Gaussian/blob/master/tex/function15.gif)
