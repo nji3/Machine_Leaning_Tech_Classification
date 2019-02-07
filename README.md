@@ -1,2 +1,0 @@
-# SVM_Gaussian
-
