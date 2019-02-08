@@ -73,3 +73,5 @@ One thing need to be taken care of is that if we include Bias, we won't want to 
 We will still minimize the inside part first. Because of the bias term, we have one new constrain now, which is
 
 ![Alt Text](https://github.com/nji3/SVM_Gaussian/blob/master/tex/function15.gif)
+
+The other part still the same. But in the optimization process, we need to maintain this constrain all the time. To do that, there is a simple way. We can just update a pair of the coordinates every step, one plus and one minus the same value. So that the constrain would be matained.
