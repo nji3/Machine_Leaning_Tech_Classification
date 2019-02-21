@@ -2,11 +2,11 @@
 
 Currently the repo contains:
 
-1. [SVM_Gaussian](##svm_gaussian): SVM and SVM with Gaussian Kernel
+1. [SVM_Gaussian](#svm_gaussian): SVM and SVM with Gaussian Kernel
 
-2. [XGBoost](##xgboost): boosting tree regressor
+2. [XGBoost](#xgboost): boosting tree regressor
 
-## 1. SVM_Gaussian
+## SVM_Gaussian
 -------------------
 
 ### General Information
@@ -81,5 +81,5 @@ We will still minimize the inside part first. Because of the bias term, we have 
 
 The other part still the same. But in the optimization process, we need to maintain this constrain all the time. To do that, there is a simple way. We can just update a pair of the coordinates every step, one plus and one minus the same value. So that the constrain would be maintained.
 
-## 2. XGBoost
+## XGBoost
 -------------------
