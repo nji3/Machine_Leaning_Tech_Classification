@@ -2,9 +2,9 @@
 
 Currently the repo contains:
 
-1. [SVM_Gaussian](#svm_gaussian): SVM and SVM with Gaussian Kernel
+1. [SVM_Gaussian](##svm_gaussian): SVM and SVM with Gaussian Kernel
 
-2. [XGBoost](#xgboost): boosting tree regressor
+2. [XGBoost](##xgboost): boosting tree regressor
 
 ## 1. SVM_Gaussian
 -------------------
