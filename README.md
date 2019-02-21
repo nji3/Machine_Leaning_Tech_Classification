@@ -7,14 +7,13 @@ Currently the repo contains:
 2. XGBoost boosting tree regressor
 
 ## 1. SVM_Gaussian
-
-General Information
 -------------------
+
+### General Information
 
 This repository contains the R version and Python version of the SVM function from scratch. The SVM function constructed here only contains the linear SVM without the bias term and the SVM with the Gaussian Kernel. The opitmization algorithm here used is the Coordinate Ascent.
 
-Mathmetica Background
----------------------
+### Mathmetica Background
 
 The SVM with L2 norm regularization has the loss function based on the hinge loss that
 
@@ -52,8 +51,7 @@ Now our loss function becomes
 
 To solve this Dual problem, we would want to use the Coordinate Ascent.
 
-Dual Coordinate Ascent
----------------------
+### Dual Coordinate Ascent
 
 Assume
 
@@ -69,8 +67,7 @@ As a result, the update could be
 
 ![Alt Text](https://github.com/nji3/SVM_Gaussian/blob/master/tex/function13.gif)
 
-Linear SVM with Bias
----------------------
+### Linear SVM with Bias
 
 What if we want to include Bias term?
 
@@ -83,3 +80,6 @@ We will still minimize the inside part first. Because of the bias term, we have 
 ![Alt Text](https://github.com/nji3/SVM_Gaussian/blob/master/tex/function15.gif)
 
 The other part still the same. But in the optimization process, we need to maintain this constrain all the time. To do that, there is a simple way. We can just update a pair of the coordinates every step, one plus and one minus the same value. So that the constrain would be maintained.
+
+## 2. XGBoost
+-------------------
