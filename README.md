@@ -1,4 +1,12 @@
-# SVM_Gaussian
+# Machine_Leaning_Tech_Classification
+
+Currently the repo contains:
+
+1. SVM and SVM with Gaussian Kernel
+
+2. XGBoost boosting tree regressor
+
+## 1. SVM_Gaussian
 
 General Information
 -------------------
