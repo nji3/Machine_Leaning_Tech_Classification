@@ -113,7 +113,7 @@ Then
 
 As a result, the original minimizing problem becomes:
 
-
+![Alt Text](https://github.com/nji3/Machine_Leaning_Tech_Classification/blob/master/tex/xgb_6.gif)
 
 Which is just minimizing the weighted squared loss of choosing the Tree regressor classifier. We would notice that it is a kind of iterating reweighted least square where
 
